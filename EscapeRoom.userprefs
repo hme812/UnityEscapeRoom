@@ -1,12 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Tagarela/System/Editor/TagarelaAudioSpectrum.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SixenseInput\Scripts\SixenseInput.cs">
     <Files>
-      <File FileName="Assets/MagicMirror/Prefab/MirrorCameraScript.cs" Line="25" Column="1" />
-      <File FileName="Assets/Clock/Scripts/Clock.cs" Line="83" Column="3" />
-      <File FileName="Assets/Tagarela/System/Editor/TagarelaMorphTarget.cs" Line="30" Column="33" />
-      <File FileName="Assets/Tagarela/System/Runtime/Tagarela.cs" Line="295" Column="73" />
-      <File FileName="Assets/Tagarela/System/Editor/TagarelaAudioSpectrum.cs" Line="34" Column="1" />
+      <File FileName="Assets\SixenseInput\Scripts\SixenseInput.cs" Line="139" Column="24" />
+      <File FileName="Assets\MagicMirror\DetectCollision.cs" Line="14" Column="22" />
+      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="1" Column="1" />
+      <File FileName="Assets\MiddleVR\Scripts\Samples\VRShortcutReload.cs" Line="1" Column="1" />
+      <File FileName="Assets\MagicMirror\Prefab\MirrorCameraScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Clock\Scripts\Clock.cs" Line="1" Column="1" />
+      <File FileName="Assets\MiddleVR\Scripts\Interactions\VRActor.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

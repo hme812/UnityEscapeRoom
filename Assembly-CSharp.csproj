@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -94,13 +94,80 @@
      <Compile Include="Assets\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\MagicMirror\DetectCollision.cs" />
      <Compile Include="Assets\MagicMirror\Prefab\MirrorCameraScript.cs" />
      <Compile Include="Assets\MagicMirror\Prefab\MirrorReflectionScript.cs" />
      <Compile Include="Assets\MagicMirror\Prefab\MirrorScript.cs" />
-     <Compile Include="Assets\Tagarela\Example\TagarelaExampleController.cs" />
-     <Compile Include="Assets\Tagarela\System\Runtime\Tagarela.cs" />
-     <Compile Include="Assets\Tagarela\System\Runtime\TagarelaFileStructure.cs" />
-     <Compile Include="Assets\Tagarela\System\Runtime\TagarelaLoader.cs" />
+     <Compile Include="Assets\MiddleVR\Assets\VRMenu\VRMenu.cs" />
+     <Compile Include="Assets\MiddleVR\Assets\VRMenu\VRMenuManager.cs" />
+     <Compile Include="Assets\MiddleVR\Assets\VRMenu\VRMenuMaximizeButton.cs" />
+     <Compile Include="Assets\MiddleVR\ClickDragDrop.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRApplySharedTransform.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRClusterObject.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Cluster\VRShareTransform.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\GUI\VRWebView.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Interactions\VRActor.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Interactions\VRAttachToNode.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRElasticRepresentation.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRInteraction.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRInteractionManipulationHomer.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRInteractionManipulationRay.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRInteractionManipulationReturnObjects.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRInteractionNavigationElastic.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRInteractionNavigationGrabWorld.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRInteractionNavigationWandJoystick.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRInteractionScreenProximityWarning.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRInteractionVirtualHandGogo.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRManagerPostFrame.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRManagerScript.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRNavigationCollision.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRPhysicsJointLimits.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRRaySelection.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRScreenWarningAnimation.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRSelectionManager.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRTouch.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRWand.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Internal\VRWandNavigation.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsBody.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsBodyManipulatorIPSI.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsConstraintBallSocket.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsConstraintCylindrical.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsConstraintFixed.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsConstraintHelical.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsConstraintHinge.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsConstraintPlanar.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsConstraintPrismatic.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsConstraintUJoint.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsDeactivateAllContacts.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsDisableAllCollisions.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsDisableCollisions.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsEnableCollisions.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Physics\VRPhysicsShowContacts.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\GUI\VRCustomizeDefaultMenu.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\GUI\VRGUIHTMLBasicSample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\GUI\VRGUIHTMLJQuerySample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\GUI\VRGUIMenuSample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\Physics\VRApplyForceTorqueSample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\Physics\VRChangeAttachedPhysicsBodyIPSISample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\Physics\VRTrackHaptionDeviceButtonsStatusSample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRAPISample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRActionSample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRCalibrateTracker.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRCalibrateTrackerYaw.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRClusterCommandSample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRFollowNode.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRInteractionSample.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRShortcutInvertEyes.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRShortcutReload.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRVirtualTrackerMapping.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRVirtualTrackerSimulation.cs" />
+     <Compile Include="Assets\MiddleVR\Scripts\Samples\VRZSpaceUsageSample.cs" />
+     <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseHand.cs" />
+     <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseHandsController.cs" />
+     <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseInputTest.cs" />
+     <Compile Include="Assets\SixenseInput\DemoScenes\Scripts\SixenseObjectController.cs" />
+     <Compile Include="Assets\SixenseInput\Scripts\SixenseInput.cs" />
+     <Compile Include="Assets\SixenseInput\Scripts\SixensePlugin.cs" />
      <None Include="Assets\MagicMirror\Prefab\MirrorShaderOld.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
@@ -110,14 +177,14 @@
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\MagicMirror\Prefab\MirrorShaderBumpMap.shader" />
-     <None Include="Assets\Tagarela\System\Animations\f.xml" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\MiddleVR\Assets\Materials\VR3DTextShader.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\MiddleVR\Assets\Materials\AlphaSelfIllum.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
-     <None Include="Assets\Tagarela\System\Animations\teste.xml" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
@@ -125,37 +192,33 @@
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
-     <None Include="Assets\Tagarela\System\Animations\iCanTalk_2.xml" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
-     <None Include="Assets\Tagarela\System\Animations\Eng_UK_Swe_Dial_Female_Sara_DF_Comm_2_1.xml" />
+     <None Include="Assets\MiddleVR\Assets\Materials\VRRiftDK2DistortionMesh.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\MagicMirror\Prefab\Readme.txt" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
-     <None Include="Assets\Tagarela\System\Animations\bacon_4.xml" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
-     <None Include="Assets\Tagarela\System\Animations\i_hate_bacon.xml" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\MiddleVR\Assets\Materials\OVRLensCorrection.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
-     <None Include="Assets\Tagarela\System\Animations\Eng_UK_Swe_Dial_Female_Sara_DF_Comm_2_0.xml" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
-     <None Include="Assets\Tagarela\System\Animations\bacon_1.xml" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
-     <None Include="Assets\Tagarela\System\Animations\bacon_0.xml" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
      <None Include="Assets\MagicMirror\Demo\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\MiddleVR\Assets\Materials\ScreenProximityWarningShader.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
@@ -166,7 +229,6 @@
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
-     <None Include="Assets\Tagarela\System\Animations\hello.xml" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
@@ -180,7 +242,6 @@
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
-     <None Include="Assets\Tagarela\System\Animations\hello_1.xml" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
@@ -189,10 +250,16 @@
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="MiddleVR_dotNet">
+ <HintPath>C:/UnityProject/EscapeRoom/Assets/MiddleVR/MiddleVR_dotNet.dll</HintPath>
+ </Reference>
+ <Reference Include="MiddleVR_Unity3D">
+ <HintPath>C:/UnityProject/EscapeRoom/Assets/MiddleVR/MiddleVR_Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
